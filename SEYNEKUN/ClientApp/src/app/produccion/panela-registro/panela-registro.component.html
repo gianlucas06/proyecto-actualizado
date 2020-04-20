@@ -1,0 +1,59 @@
+<html>
+
+<head>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+        <link rel="stylesheet" href="assets\css\estilos.css">
+        </head>
+        
+
+<body>
+    <div class="container">
+        <div class="row">
+            
+                <h2 class="form-tittle">REGISTRO DE PRODUCCION DE <span>PANELA</span></h2> 
+                <form class="form" >
+                    <div class="form-group">
+                        <label for="Codigo" class="form-label">Codigo Registro</label>
+                        <input type="text" class="form-input" name="Idregistro" [(ngModel)]="panela.Idregistro" />
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha" class="form-label">Fecha de ingreso</label>
+                        <input type="date" class="form-input"  name="FechaIngreso" [(ngModel)]="panela.FechaIngreso" />
+                    </div>
+                    <div class="form-group">
+                        <label for="NumeroLote" class="form-label" >Numero de lote</label>
+                        <input type="text" class="form-input"  name="NumeroLote" [(ngModel)]= "panela.NumeroLote"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="NumeroLoteAgricola" class="form-label">Numero de lote Agricola</label>
+                        <input type="text" class="form-input"  name="NumeroLoteAgricola" [(ngModel)]= "panela.NumeroLoteAgricola"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="Etapas" class="form-label">Etapas</label>
+                        <select name="Etapas" class="form-input" [(ngModel)]= "panela.Etapas"  > 
+                            <option>Filtrado</option>
+                            <option>Evaporacion</option>
+                            <option>Punteo</option>
+                            <option>Moldeo</option>                       
+                         </select>
+                    </div>
+                    <div class="form-group">
+                        <label for= "Cantidad"  class="form-label">Cantidad obtenida</label>
+                        <input type="text" class="form-input"  name="Cantidad" [(ngModel)]= "panela.Cantidad"   />
+                    </div>
+                    <div class="form-group">
+                        <label for="Responsable" class="form-label">Responsable</label>
+                        <input type="text" class="form-input"  name="Responsable" [(ngModel)]= "panela.Responsable"  />
+                    </div>
+                    <div class="text-center">
+                        <button class="btn-registrar mr-1" (click)="add()">Registrar</button>
+                        <button class="Cancel" type="reset">Cancel</button>
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
