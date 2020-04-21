@@ -20,7 +20,7 @@ body{
 
 .form-tittle{
     
-    font-family: 'Times New Roman', Times, serif;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
     text-align: center;
 
@@ -45,7 +45,7 @@ span{
     display: block;
     color: rgb(252, 252, 252);
     font-size: 16px;
-    font-family: Roboto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     
 }
@@ -57,7 +57,7 @@ span{
     outline: none;
     border-bottom: 2px solid rgb(250, 248, 248) ;
     color: white;
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
     border-radius: 2px;
     width: 500px;
