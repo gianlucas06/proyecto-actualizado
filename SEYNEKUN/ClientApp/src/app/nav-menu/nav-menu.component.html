@@ -1,9 +1,8 @@
-<header>
+<header class="header">
   <nav
-    class="navbar navbar-expand-sm navbar-toggleable-sm navbar navbar-dark bg-secondary  box-shadow mb-3"
-  >
+  class="navbar navbar-expand-lg navbar-light bg-light" > 
     <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">SEYNEKUN</a>
+      <a class="navbar-brand-Menu" [routerLink]="['/']">SEYNEKUN</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,7 +18,7 @@
         class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
         [ngClass]="{ show: isExpanded }"
       >
-        <ul class="navbar-nav flex-grow">
+        <ul class="item-menu">
           <li
             class="nav-item"
             [routerLinkActive]="['link-active']"
@@ -28,12 +27,12 @@
             
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/panelaRegistro']"
+            <a class="active" [routerLink]="['/panelaRegistro']"
               >Registro de produccion</a
             >
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/panelaConsulta']"
+            <a class="active" [routerLink]="['/panelaConsulta']"
               >Consultar produccion</a
             >
           </li>

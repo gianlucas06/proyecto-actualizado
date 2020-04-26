@@ -1,10 +1,11 @@
-<div class="row">
+<link rel="stylesheet" href="assets\css\estilos.css">
+<div class="rowConsulta">
   <div class="col-6">
     <input [(ngModel)]="searchText" type="text" class="form-control" placeh
     older="Type to filter">
   </div>
-  </div>
-  
+</div>
+
   <hr>
   
   <table class="table table-striped" *ngIf='panelas && panelas.length'>
@@ -38,3 +39,5 @@
       </tr>
     </tbody>
   </table>
+
+
