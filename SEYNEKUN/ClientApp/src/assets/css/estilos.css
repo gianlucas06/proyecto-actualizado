@@ -1,23 +1,24 @@
+
 body{
     background: url("assets/imagenes/caña1.jpeg");
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    
-    padding: 0% 0% 0% 0%;
+    margin: 60px;
+    padding: 5% 5% 5% 5%; 
     background-size: 100% 100%;
+    max-width: 100%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-attachment: fixed;
-    
 
     
 }
 
 .form-tittle{
     
-    font-family: 'Times New Roman', Times, serif;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
     text-align: center;
 
@@ -26,10 +27,10 @@ body{
 .container {
     background: rgba(0, 0, 0, .6);
     width: 100%;
-    max-width: 650px;
-    margin:50px 15px 50px 100px;
-    padding: 0% 0% 0% 0%;
-    border-radius: 0px;
+    max-width: 600px;
+    margin: auto;
+    padding: 15px 45px;
+    border-radius: 3px;
     
 }
 span{
@@ -41,8 +42,8 @@ span{
     width: 100%;
     display: block;
     color: rgb(252, 252, 252);
-    font-size: 14px;
-    font-family: Roboto;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     
 }
@@ -54,8 +55,8 @@ span{
     outline: none;
     border-bottom: 2px solid rgb(250, 248, 248) ;
     color: white;
-    font-family: Roboto;
-    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
     border-radius: 2px;
     width: 500px;
  }
@@ -76,6 +77,7 @@ span{
     outline: none;
  }
  
+ 
  /*CSS DE CONSULTA PANELA*/
  .rowConsulta{
     margin: 60px 30px;
@@ -84,6 +86,3 @@ span{
 .containerMenu{
     margin: 50px ;
 }
-
- 
- 
