@@ -16,23 +16,23 @@
                 <form class="form" >
                     <div class="form-group">
                         <label for="Codigo" class="form-label">Codigo Registro</label>
-                        <input type="text" class="form-input" name="Idregistro" [(ngModel)]="panela.Idregistro" />
+                        <input type="text" class="form-input" name="Idregistro" [(ngModel)]="panela.idregistro" />
                     </div>
                     <div class="form-group">
                         <label for="fecha" class="form-label">Fecha de ingreso</label>
-                        <input type="date" class="form-input"  name="FechaIngreso" [(ngModel)]="panela.FechaIngreso" />
+                        <input type="date" class="form-input"  name="fechaIngreso" [(ngModel)]="panela.fechaIngreso" />
                     </div>
                     <div class="form-group">
                         <label for="NumeroLote" class="form-label" >Numero de lote</label>
-                        <input type="text" class="form-input"  name="NumeroLote" [(ngModel)]= "panela.NumeroLote"  />
+                        <input type="text" class="form-input"  name="numeroLote" [(ngModel)]= "panela.numeroLote"  />
                     </div>
                     <div class="form-group">
                         <label for="NumeroLoteAgricola" class="form-label">Numero de lote Agricola</label>
-                        <input type="text" class="form-input"  name="NumeroLoteAgricola" [(ngModel)]= "panela.NumeroLoteAgricola"  />
+                        <input type="text" class="form-input"  name="numeroLoteAgricola" [(ngModel)]= "panela.numeroLoteAgricola"  />
                     </div>
                     <div class="form-group">
                         <label for="Etapas" class="form-label">Etapas</label>
-                        <select name="Etapas" class="form-input" [(ngModel)]= "panela.Etapas"  > 
+                        <select name="etapas" class="form-input" [(ngModel)]= "panela.etapas"  > 
                             <option>Filtrado</option>
                             <option>Evaporacion</option>
                             <option>Punteo</option>
@@ -41,11 +41,11 @@
                     </div>
                     <div class="form-group">
                         <label for= "Cantidad"  class="form-label">Cantidad obtenida</label>
-                        <input type="text" class="form-input"  name="Cantidad" [(ngModel)]= "panela.Cantidad"   />
+                        <input type="text" class="form-input"  name="cantidad" [(ngModel)]= "panela.cantidad"   />
                     </div>
                     <div class="form-group">
                         <label for="Responsable" class="form-label">Responsable</label>
-                        <input type="text" class="form-input"  name="Responsable" [(ngModel)]= "panela.Responsable"  />
+                        <input type="text" class="form-input"  name="responsable" [(ngModel)]= "panela.responsable"  />
                     </div>
                     <div class="text-center">
                         <button class=" btn btn-success mr-1" (click)="add()">Registrar</button>

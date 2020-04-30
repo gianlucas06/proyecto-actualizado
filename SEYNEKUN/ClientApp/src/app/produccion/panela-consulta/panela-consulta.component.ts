@@ -8,8 +8,9 @@ import { Panela } from '../models/panela';
   styleUrls: ['./panela-consulta.component.css']
 })
 export class PanelaConsultaComponent implements OnInit {
-
+  searchText:string;
   panelas:Panela[];
+  
   constructor(private panelaService: PanelaService) { }
 
   ngOnInit() {

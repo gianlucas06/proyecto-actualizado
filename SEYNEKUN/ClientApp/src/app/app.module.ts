@@ -13,6 +13,7 @@ import { PanelaConsultaComponent } from './Produccion/panela-consulta/panela-con
 import { PanelaRegistroComponent } from './Produccion/panela-registro/panela-registro.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PanelaService } from './services/panela.service';
+import { FiltroProductoPipe } from './pipe/filtro-producto.pipe';
 
 
 
@@ -25,6 +26,7 @@ import { PanelaService } from './services/panela.service';
     FetchDataComponent,
     PanelaConsultaComponent,
     PanelaRegistroComponent,
+    FiltroProductoPipe,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

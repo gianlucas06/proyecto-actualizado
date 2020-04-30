@@ -1,11 +1,11 @@
 export class Panela {
 
-    FechaIngreso: Date;
-    NumeroLote: string;
-    NumeroLoteAgricola: string;
-    Etapas: string;
-    Cantidad: string;
-    Responsable: string;
-    Idregistro: string;
+    fechaIngreso: Date;
+    numeroLote: string;
+    numeroLoteAgricola: string;
+    etapas: string;
+    cantidad: string;
+    responsable: string;
+    idregistro: string;
 
 }
