@@ -38,7 +38,7 @@ export class PanelaService {
 
     /** DELETE: delete the hero from the server */
    delete (panela: Panela | string): Observable<Panela> {
-    const id = typeof panela === 'string' ? panela : panela.Idregistro;
+    const id = typeof panela === 'string' ? panela : panela.idregistro;
     const url = `${'api/panela'}/${id}`;
 
     return this.http.delete<Panela>(url)
